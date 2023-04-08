@@ -1,0 +1,45 @@
++margin: 
+  VD: margin: 50px;
+  +margin-left: 50px;
+  +margin-right: 50px;
+  +margin-top: 50px;
+  +margin-bottom: 50px
+
+  VD: margin: 50px 20px;
+  +margin-left: 20px;
+  +margin-right: 20px;
+  +margin-top: 50px;
+  +margin-bottom: 50px;
++text-align: căn chỉnh vị trí của chữ
+ +color: đổi màu chữ
+    +color: red;
+    +color: #ffffff;
+    +color: rgb(255,255,255);
+ +font-size: kích thước của chữ
+    font-size: 50px;
+ +font-weight: chỉnh độ đậm nhạt của chữ
+    +font-weight: bold;
+    +font-weight: 400;
+ +background: red;
+ +background: url("link_image);
+ +background-color: tạo màu nền
+    background-color: red;
+ +background-image: url("link_image)
+ +border: tạo viền
+ +border: red 2px solid;
+  +border-width: tạo độ dày của viền
+  +border-width: 2px;
+  +border-color: tạo màu của viền
+  +border-color: red;
+  +border-style: tạo kiểu cho viền
+  +border-style: solid;
+ +border-radius: bo viền
+ +cursor: thay đổi con trỏ chuột
+ +font-style: thay đổi kiểu chữ
+ +width: thay đổi chiều rộng của phần tử
+ +height: thay đổi chiều rộng của phần tử
+ +opacity: 
+ +display:
+ +padding:
+
+ ==>Phân biệt padding và margin?

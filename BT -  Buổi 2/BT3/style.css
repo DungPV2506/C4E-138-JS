@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+}
+strong{
+    color: rgb(74, 139, 238);
+    font-weight: 300;
+}
+.content{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.text-pad{
+    padding: 20px 30px;
+    color: white;
+    background-color: rgb(26, 21, 21);
+}

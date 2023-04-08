@@ -1,0 +1,42 @@
+.CV {
+    background-color: rgb(137, 229, 229);
+    width: 500px;
+    padding: 15px;
+}
+.Cv-avatar {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.text-color{
+    color: rgb(245, 71, 2);
+}
+.CV-border{
+    border: 2px rgb(82, 146, 241) dashed;
+    width: 80%;
+}
+.CV-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Interest{
+    margin-top: 20px;
+}
+.Contact{
+    margin-top: 10px;   
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.fa-star{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient( yellow, #f9fd09, rgb(252, 252, 8));
+}
+.fa{
+    background-image: linear-gradient(to right, purple, pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

@@ -1,0 +1,213 @@
+
+.container{
+    margin: 1% auto;
+    width: 50%;
+    /* height: 100%; */
+    border: 1px solid black;
+    background-color:rgb(247, 235, 215);
+    text-align: center;
+}
+.background-img{
+    background-image: url("https://img.freepik.com/premium-vector/illustration-outdoor-jungle-natural_46176-404.jpg");
+    height: 300px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin: 1% auto;
+}
+.fontsize{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+}   
+.color{
+    color: teal;
+}
+.name{
+    color:slateblue;
+}
+.title{
+    font-size: 70px;
+    font-family:fantasy;
+    font-style:italic;
+}
+.TD{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: fantasy;
+    padding-top: -16px;
+    margin-top: -84px;
+    color: rgb(8, 60, 202);
+}
+.images1{
+    width: 800px;
+    height: 500px;
+}
+.Hello{
+    padding-top: 20px;
+}
+/* .fa-heart{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: radial-gradient(red);
+} */
+/* .fa-heart{
+    background-color: red;
+    background-image:radial-gradient(  red, red);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+} */
+.my-icon{
+    font-size: 20px;
+   color: red;
+}
+.half{
+
+}
+.fa-heart.half::before{
+    background: -webkit-linear-gradient(180deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.images2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.skills{
+    position: relative;
+    padding: 1px auto 30px;
+    /* border: 1px solid black; */
+}
+.images3{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+}
+.text-fix{
+    position: absolute;
+    top: 155px;
+    left: 400px;
+    font-size: 35px;
+    color: blue;
+} 
+.text-fix1{
+    position: absolute;
+    /* width: 500px; */
+    /* height: 200px; */
+    top: 220px;
+    left: 400px;
+    right: 10px;
+    font-size: 22px;
+    font-family:monospace ;
+    font-weight: 100;
+} 
+.challenge{
+    position: relative;
+    padding: 1px auto 30px;
+    /* border: 1px solid black; */
+    padding-top: 160px;
+    margin-top: 200px;
+}
+.images4{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-radius: 2%;
+}
+.text-fix2{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-size: 35px;
+    color: blue;
+}
+.text-fix3{
+    position: absolute;
+    top: 70px;
+    right: 280px;
+    left: 22px;
+    font-size: 22px;
+    font-family:monospace;
+    font-weight: 100;
+}
+.Hello{
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.ND{
+    font-size: 30px;
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+}
+.title4{
+    font-size: 25px;
+}
+.ND3{
+    font-size: 22px;
+    padding: 22px 22px;
+}
+.btn{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color:darkcyan;
+    color: white;
+    font-family:serif;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+.footer{
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: darkcyan;
+}
+.footer ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-text-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0 3px 0;
+}
+.footer-text-list li{
+    margin: 0 10px;
+}
+.footer-text-list a{
+    text-decoration: none;
+}
+/* .footer-text-list a i{
+    font-size: 2px;
+    transition: color .4s ease;
+} */
+.footer-text-list a:hover i{
+    color: aqua;
+}
+
+
+

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-head1{
+    background: azure;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+ .items1{
+    display: flex;
+} 
+.item{
+    border: 1px solid black;
+    border-right: none;
+    padding: 4px 4px;
+    background: aqua;
+}
+.item-logo{
+    background: rgb(119, 247, 168);
+    padding: 4px 8px;
+    border: 1px solid black;
+} 
+ .item:last-child{
+    border-right: 1px solid black;
+} 
+
+/* CSS head 2 */
+.container-head2{
+    display: flex;
+    justify-content: space-between;
+}
+.items2-logo2{
+    padding: 4px 6px;
+    border: 1px solid black;
+    background: rgb(119, 247, 168);
+    margin: 10px;
+}
+.items2{
+    display: flex;
+    align-items: center;
+}
+.item2{
+    padding: 5px 10px;  
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+
+}
+.title{
+         padding: 5px 10px;
+        /* border: 1px solid black; */
+        font-size: 18px;
+        font-weight: 200;
+}
+.item2.fix {
+    padding: 4px 8px;
+    border: 1px solid;
+    background: aqua;
+    /* margin-left: 0px; */
+}
+.items2-logo2{
+    padding: 3px 5px;
+    border: 1px solid black;
+    background: rgb(119, 247, 168);
+    margin: 5px;
+}
+/* CSS GROUP 3 */
+.container-head3{
+    display: flex;
+    justify-content: space-between;
+}
+.items3{
+    display: flex;
+    align-items: center;
+}
+.items3-logo3{
+    padding: 3px 5px;
+    border: 1px solid black;
+    background: rgb(119, 247, 168);
+    margin: 5px;
+}
+.item3{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+.circle{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: darkgreen;
+}
+/* CSS GROUP 4 */
+.container-head4{
+    display: flex;
+    justify-content: space-between;
+}
+.main-head{
+    display: flex;
+}
+.circle4{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: darkgreen;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.items4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+}
+.head-right i{
+    margin: 0px 8px;
+}
+.head-right div{
+    margin: 5px 10px;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    margin-right: -1px;
+}
+.circle5{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: darkgreen;
+}

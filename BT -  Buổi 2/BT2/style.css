@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+
+.title-page{
+    color: cornflowerblue;
+    font-size: 50px;
+    font-weight: 300;
+}
+.button{
+    isolation: isolate;
+}
+.draw{
+    margin-right: 30px;
+    padding: 15px 30px;
+}
+.draw-meet{
+    padding: 15px 40px; 
+}
+.center{
+    margin-left: 30px;
+    padding: 15px 30px;
+    border: 1px solid blue;
+}
+.spin{
+    margin-right: 60px;
+    margin-top: 25px;
+    padding: 30px 25px;
+}
+.spin thick{
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 30px 9px;
+}
+.Circle{
+    box-shadow: none;
+}
+.text-color{
+    color: orange;
+    
+}
+.text-border{
+    border: 1px solid red;
+}

@@ -1,0 +1,43 @@
+.profile {
+    background: aliceblue;
+    width: 700px;
+    padding: 20px;
+}
+
+.text-color{
+    color: cadetblue;
+}
+
+h3.profile-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4.profile-name.text-color {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img.profile-avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+ .profile-border { 
+    border-bottom: 5px dashed rgb(6, 163, 163);
+    width: 80%;
+}  
+
+.text-bold{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact{
+    margin-top: 20px;
+    color: purple;
+    cursor: pointer;
+    text-decoration: underline;
+}

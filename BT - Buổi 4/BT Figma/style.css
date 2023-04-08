@@ -1,0 +1,735 @@
+body{
+    width: 1025px;
+    height: 1141px;
+    border: 1px solid black;
+    margin-left: 10% auto;
+    position: relative;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 238.25px 238.25px 238.25px 238.25px;
+    grid-template-rows: 72px 92px 296px 296px 296px; */
+    /* gap: 24px; */
+    width: 1025px;
+    height: 1141px;
+    position: relative;
+}
+.HEAD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 120px;
+    position: absolute;
+    height: 72px;
+    top: -23px;
+    right: 0px;
+    left: 0px;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 24px;
+    /* border-bottom: 1px solid black; */
+    margin-top: -28px;
+    padding: 12px 5px;
+}
+
+/* Head Left */
+.head-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 130px;
+    height: 36px;
+}
+.title{
+    width: 82px;
+    height: 36px;
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+    font-family:'Peralta';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: 15px;
+}
+i.fa-solid.fa-chevron-left {
+    font-size: 18px;
+}
+
+/* Head-center */
+.sreach {
+    display: flex;
+    flex-direction: row;
+    width: 471px;
+    height: 40px;
+    border:  1px solid black;
+    border-radius: 8px;
+    /* justify-content: flex-start; */
+    align-items: center;
+    /* margin-right: 100px; */
+}
+span.search1 {
+    margin-left: 15px;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    margin-left: 10px;
+}
+
+/* Head-right */
+.images{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.head-right {
+    width: 138px;
+    height: 29px;
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+img.images {
+    position: absolute;
+    right: 0px;
+}
+i.fa-regular.fa-heart {
+    position: absolute;
+    right: 68px;
+    font-size: 23px;
+    top: 2px;
+}
+
+i.fa-solid.fa-house {
+    position: absolute;
+    right: 130px;
+    top: 2px;
+    font-size: 23px;
+}
+
+
+/* Title - Speaker */
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2.speark {
+    width: 159px;
+    height: 36px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-left: 54px;
+    margin-top: 70px;
+}
+
+.back {
+    position: absolute;
+    left: 24px;
+    margin-top: 40px;
+}
+
+
+/* Phần Nội Dung */
+.Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px;
+}
+
+/* Column left - column 1 left */
+.Column-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 476.5px;
+    height: 936px;
+}
+.Card1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    margin: 40px 24px;
+    margin-top: 15px;
+}
+.Card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    background: #ffd38a;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.avt {
+    width: 238px;
+    height: 296px;
+    border: 1px solid;
+    background: #E2E2E2;
+    border-radius: 16px;
+}
+.img {
+    width: 206.25px;
+    height: 200px;
+    padding: 16px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 5px;
+    gap: 16px;
+}
+
+/* Column left - Information */
+
+.Infomation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 16px 16px;
+    gap: 0px;
+    padding-top: 0px;
+}
+
+h2.nameOli {
+    width: 206px;
+    height: 36px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    text-transform: capitalize;
+}
+
+.framer1 {
+    padding-top: 0px;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1px;
+}
+h4.design {
+    margin-top: -13px;
+    font-size: 19px;
+}
+
+h4.Location {
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+h4.speak {
+    margin-top: -6px;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 8px; */
+    gap: 30px;
+    padding-top: 96px;
+    font-size: 21px;
+}
+.Name {
+    width: 206px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+
+/* Column-left  Kenneth Harmon */
+.Card2 {
+    display: flex;
+    flex-direction: flex-start;
+    width: 476.5px;
+    margin: 0px 24px;
+    margin-top: -38px;
+}
+
+.Card-Ken {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    /* background: #D6e7ff; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    background: #d6e7ff;
+}
+
+.avt-Ken {
+    width: 238px;
+    height: 296px;
+    border: 1px solid;
+    background: #E2E2E2;
+    border-radius: 16px;
+}
+img.images-Ken {
+    width: 206.5px;
+    height: 200px;
+    padding: 16px;
+}
+.icon-ken {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 15px;
+    gap: 16px;
+    margin-left: 10px;
+}
+
+/* Column left -Ken - Information */
+h2.nameKen {
+    width: 206px;
+    height: 36px;
+    font-size: 36px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    text-transform: capitalize;
+}
+.framer2 {
+    width: 206px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4.design2 {
+    margin-top: 26px;
+    font-size: 22px;
+}
+
+h4.Location2 {
+    margin-top: -55px;
+}
+
+h4.Location2 {
+    font-size: 18px;
+    margin-top: -16px;
+}
+
+h4.speak2 {
+    font-size: 18px;
+    margin-top: -11px;
+}
+.social-Ken {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 20px;
+    padding-top: 36px;
+}
+
+/* Column left - Jacobs - */
+.Card-Jacob {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 476px;
+    height: 294px;
+    background: #ffc5a0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+.avt-Jacob {
+    width: 238px;
+    height: 294px;
+    background: #e2e2e2;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+img.images-Jacob {
+    width: 206px;
+    height: 200px;
+    padding: 16px;
+}
+.icon-Jacob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 15px;
+    gap: 16px;
+    margin-left: 16px;
+}
+.Card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    padding: 0px 24px;
+    /* border: 1px solid; */
+}
+h2.nameJacob {
+    width: 206px;
+    height: 36px;
+    font-size: 36px;
+    display: flex;
+    align-items: flex-start;
+    text-transform: capitalize;
+    gap: 16px;
+}
+
+.framer3 {
+    width: 206px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4.design3 {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+h4.Location3 {
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+h4.speak3 {
+    font-size: 18px;
+    margin-top: -13px;
+}
+
+.social-Jacob {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 20px;
+    padding-top: 36px;
+}
+
+/* Column right */
+.Column-Right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 476.5px;
+    height: 936px;
+}
+
+/* Column right -  Julia Kelley */
+.Card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 476.5px;
+    height: 296px;
+    margin: 18px 24px;
+}
+
+
+.Card-Julia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    background: #abe1ff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.avt-Julia {
+    width: 238px;
+    height: 296px;
+    border: 1px solid;
+    background: #e2e2e2;
+    border-radius: 16px;
+}
+
+.icon-Julia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-left: 16px;
+    padding: 15px 15px;
+    /* margin-top: 20px; */
+}
+
+img.images-Julia {
+    width: 206px;
+    height: 200px;
+    padding: 16px;
+}
+/* Infomation - Jullia Kelly */
+h2.nameJulia {
+    width: 206px;
+    height: 36px;
+    font-size: 36px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.framer3 {
+    display: flex;
+    width: 206px;
+    height: 116px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h4.design3 {
+    margin-top: -12px;
+    font-size: 20px;
+}
+
+h4.Location3 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+h4.speak3 {
+    font-size: 20px;
+    margin-top: -13px;
+}
+
+
+.social-Julia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    padding-top: 36px;
+}
+
+
+/* Column right - Mrian Fisher */
+.Card5 {
+    display: flex;
+    flex-direction: row;
+    width: 476.5px;
+    margin: 0px 24px;
+    height: 296px;
+    /* border: 1px solid; */
+    margin-top: -17px;
+    background: #adfff6;
+    border-radius: 16px;
+}
+
+.Card-Brian {}
+
+.Card-Brian {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.avt-Brian {
+    width: 238px;
+    height: 296px;
+    boder: 1px solid;
+    border: 1px solid;
+    background: #e2e2e2;
+    border-radius: 16px;
+    gap: 16px;
+    /* display: flex; */
+    /* gap: 16px; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    /* padding: 4px; */
+}
+
+.img-Brian {
+    width: 206px;
+    height: 200px;
+    padding: 16px;
+}
+
+.icon-Brian {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 15px 15px;
+    margin-top: 16px;
+}
+
+.Infomation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h2.nameBrian {
+    width: 206px;
+    height: 36px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.framer5 {
+    display: flex;
+    width: 206px;
+    height: 116px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h4.design5 {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+h4.Location5 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+h4.speak5 {
+    font-size: 20px;
+    margin-top: -12px;
+}
+
+.social-Brian {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* padding-top: 36px; */
+    margin-top: 36px;
+}
+
+
+
+/* Column right - Joan Glenn */
+.Card6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 476.5px;
+    height: 296px;
+    margin: 0px 24px;
+}
+
+.Card-Glenn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 476.5px;
+    height: 296px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    background: #a5ff96;
+}
+
+.avt-Glenn {
+    width: 238px;
+    height: 296px;
+    border: 1px solid;
+    border-radius: 16px;
+    background: #e2e2e2;
+}
+
+.img-Glenn {
+    width: 206px;
+    height: 200px;
+    padding: 16px;
+}
+
+.icon-Glenn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 15px 15px;
+    margin-top: 10px;
+}
+
+/* Column right - Joan Glenn - Imformation */
+h2.nameGlenn {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    width: 206px;
+    height: 36px;
+    align-items: flex-start;
+}
+
+.framer6 {
+    display: flex;
+    width: 206px;
+    height: 116px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4.design6 {
+    font-size: 20px;
+    margin-top: -14px;
+}
+
+h4.Location6 {
+    font-size: 21px;
+    margin-top: -10px;
+}
+
+h4.speak6 {
+    font-size: 22px;
+    margin-top: -13px;
+}
+
+.social-Glenn {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 36px;
+}
