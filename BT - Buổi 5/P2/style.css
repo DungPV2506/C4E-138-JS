@@ -1,0 +1,406 @@
+.container{
+    position: relative;
+    border: 1px solid black;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 24px;
+    background: antiquewhite;
+    margin: 24px;
+}
+
+.head-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img.img {
+    width: 40px;
+    height: 35px;
+    border-radius: 3px;
+    background-image: black;
+    border: 1px solid;
+}
+
+h4.Nameshop {
+    padding: 5px 20px;
+}
+
+.head-right {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.mycart {
+    border: 1px solid;
+    padding: 0px 20px;
+    border-radius: 6px;
+    background: aquamarine;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+img.img-main {
+    width: 850px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+}
+.column-left {
+    display: grid;
+    margin: 15px 24px;
+    gap: 24px;
+}
+
+.other-img-row1 {
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 175px;
+    gap: 30px;
+}
+
+img.img1 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img2 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img3 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img4 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+.other-img-row2 {
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 175px;
+    gap: 30px;
+}
+
+img.img5 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img6 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img7 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+img.img8 {
+    width: 190px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+/* Column - Right */
+.column-right {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+h3.title {
+    font-size: 35px;
+    font-family: system-ui;
+    font-weight: 900;
+}
+
+h5.column-right-content {
+    font-size: 18px;
+}
+
+.column-right-row2 {
+    display: flex;
+    font-family: math;
+    flex-direction: column;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.blue {
+    padding: 2px 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: aquamarine;
+    align-items: center;
+    
+}
+
+.red {
+    padding: 2px 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.green {
+    padding: 2px 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    font-family: math;
+}
+
+
+
+/*      Column-right-row3         */
+.column-right-row3 {
+    display: flex;
+    flex-direction: column;
+    font-family: math;
+}
+
+h3 {
+    font-family: math;
+}
+
+.design {
+    display: flex;
+    flex-direction: row;
+    /* padding: 2px 13px; */
+    /* border: 1px solid black; */
+    gap: 24px;
+}
+
+.Classic {
+    padding: 2px 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: aquamarine;
+}
+
+.mordem {
+    padding: 2px 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* NOTE */
+.price {
+    display: flex;
+    gap: 20px;
+ 
+}
+
+h5.font-math {}
+
+.discount {
+    display: flex;
+    gap: 24px;
+    margin-top: -25px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    margin-top: -27px;
+}
+
+.instocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-top: -25px;
+}
+.color-font-blue{
+    color: blue;
+}
+.color-red{
+    color: red;
+}
+
+.quantityInput {
+    display: flex;
+    gap: 2px;
+}
+
+/* Comment */
+/* Comment */
+.Comment {
+    margin-top: 30px;
+}
+h4.comment {
+    padding: 0px 12px;
+    /* border: 1px solid; */
+    margin: 0px 24px;
+    font-size: 20px;
+}
+img.avt-user {
+    width: 40px;
+    height: 40px;
+}
+
+
+.cmt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid;
+    gap: 20p;
+    margin: 10px 24px;
+}
+.cmt1-left {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 10px;
+}
+.time-content {
+    margin-left: 10px;
+}
+h6.customer1 {
+    font-size: 18px;
+}
+
+h6.city {font-style: italic;margin-top: -35px;}
+
+.cmt-left-child {
+    margin-top: -39px;
+}
+h5.time {
+    margin-top: -10px;
+    font-style: italic;
+}
+
+h5.content-user {
+    margin-top: -15px;
+}
+
+/* cmt2-left */
+.cmt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid;
+    gap: 20p;
+    margin: 10px 24px;
+}
+.cmt2-left {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+h6.customer2 {
+    font-size: 18px;
+}
+
+h6.city2 {font-style: italic;margin-top: -35px;}
+
+.cmt-left-child2{
+    margin-top: -39px;
+}
+.time-content2 {
+    margin-left: 10px;
+}
+h5.time2{
+    margin-top: -10px;
+    font-style: italic;
+}
+
+h5.content-user2 {
+    margin-top: -15px;
+}
+
+
+/* Page */
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: -10px 24px;
+}
+
+h6.page1 {
+    padding: 7px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+h6.page2 {
+    padding: 7px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+h6.page3 {
+    padding: 7px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+/* Head 2 */
+.head2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    align-items: center;
+    height: 108px;
+    background: antiquewhite;
+    margin: 10px 24px 20px;
+}
+
+.head2-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px 36px;
+}
+
+.sdt {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-top: 63px;
+}
+
+.icon-star {
+    padding: 2px 10px;
+    margin-left: 1550px;
+    margin-top: 10px;
+    display: flex;
+}
