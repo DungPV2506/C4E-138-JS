@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+.container{
+    padding: 20px 50px;
+    margin: 0px 50px;
+}
+
+
+h1.user {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input.input {
+    padding: 10px 30px;
+    width: 350px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.icon-Search {
+    position: absolute;
+    left: 10px;
+}
+
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-right: 35px;
+}
+label.NewUser.pointer {
+    /* padding: 20px 40px; */
+    border: 1px solid;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+label.NewUser.pointer {
+    padding: 8px 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label.rep.pointer {
+    font-family: ui-monospace;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+/* CSS container box */
+.container-BOX {
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    grid-template-rows: 350px 350px;
+    gap: 24px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+
+/* CSS box1 */
+.box1 {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid wheat; */
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h3.info1 {
+    font-weight: 300;
+}
+.interes1 {
+    display: flex;
+    gap: 20px;
+}
+h3.clother1 {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.stem1 {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX1 */
+
+
+/* CSS BOX2 */
+.box2 {
+    display: flex;
+    gap: 24px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interes2 {
+    display: flex;
+    gap: 20px;
+}
+h3.info2 {
+    font-weight: 300;
+}
+.info-interes2 {
+    display: grid;
+    grid-template-columns: 73px 77px;
+    grid-template-rows: 30px 30px;
+    gap: 10px;
+}
+h3.headset2 {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.gad2 {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+h3.speed2 {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.winter2 {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX2 */
+
+
+
+/* CSS BOX3 */
+.box3 {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid wheat; */
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content3 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interes3 {
+    display: flex;
+    gap: 20px;
+}
+h3.info3 {
+    font-weight: 300;
+}
+.info-interes3 {
+    display: grid;
+    grid-template-columns: 73px 77px;
+    grid-template-rows: 30px 30px;
+    gap: 10px;
+}
+h3.road {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.mountain {
+    padding: 4px 1px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+h3.trip {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.earth {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+h3.nature {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX3 */
+
+
+
+/* CSS BOX4 */
+.box4 {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid wheat; */
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content4 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interes4 {
+    display: flex;
+    gap: 20px;
+}
+h3.info4 {
+    font-weight: 300;
+}
+.info-interes4 {
+    display: grid;
+    grid-template-columns: 77px 77px;
+    grid-template-rows: 30px 30px;
+    gap: 10px;
+}
+h3.mainten {
+    width: 105px;
+    padding: 4px 1px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.gear {
+    padding: 4px 1px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    margin-left: 30px
+}
+h3.frames {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.repair {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX4 */
+
+
+/* CSS BOX5 */
+.box5 {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid wheat; */
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content5 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.interes5 {
+    display: flex;
+    gap: 10px;
+}
+h3.info5 {
+    font-weight: 300;
+}
+h3.Music {
+    padding: 4px 5px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.disks {
+    padding: 2px 6px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX5 */
+
+
+
+/* CSS BOX6 */
+.box6 {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid wheat; */
+    border-radius: 20px;
+    padding: 24px;
+    background-color: aliceblue;
+}
+
+.content6 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.interes6 {
+    display: flex;
+    gap: 10px;
+}
+h3.info6 {
+    font-weight: 300;
+}
+h3.vintage {
+    padding: 4px 5px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue;
+    border: 1px solid gray;
+}
+
+h3.electric {
+    padding: 2px 6px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-weight: 100;
+    color:royalblue
+}
+/* END CSS BOX6 */
+
